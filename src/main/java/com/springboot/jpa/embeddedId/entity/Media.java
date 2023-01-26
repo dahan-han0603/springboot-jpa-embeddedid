@@ -17,7 +17,7 @@ public class Media {
 
     private String name;
 
-    @OneToMany(mappedBy = "media")
-    @MapKey(name = "id")
-    Set<ProductMedia> productMedia;
+//    @OneToMany(mappedBy = "media")
+//    @MapKey(name = "id")
+//    Set<ProductMedia> productMedia;
 }
